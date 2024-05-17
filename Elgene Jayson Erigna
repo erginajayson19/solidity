@@ -8,11 +8,11 @@ contract MyToken {
 
     mapping(address => uint256) public balances;
 
-    constructor(string memory _name, string memory _symbol, uint256 _totalSupply) {
+    constructor(string memory _name, string memory _symbol, uint256 _initialSupply) {
         name = _name;
         symbol = _symbol;
-        totalSupply = _totalSupply;
-        balances[msg.sender] = _totalSupply;
+        totalSupply = _initialSupply;
+        balances[msg.sender] = _initialSupply;
     }
 
     function mint(address _receiver, uint256 _value) public {
