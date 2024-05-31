@@ -27,7 +27,7 @@ To deploy and interact with the MyCredits contract, follow the steps below:
 # Authors
 Elgene Jayson Ergina [erginajayson@gmail.com]
 
-#License
+# License
 This project is licensed under the MIT License. See the LICENSE.md file for details.
 
 
